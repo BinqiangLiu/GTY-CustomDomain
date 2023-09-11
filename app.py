@@ -21,8 +21,8 @@ model_id = os.environ.get('model_id')
 hf_token = os.environ.get('hf_token')
 repo_id = os.environ.get('repo_id')
 
-st.set_page_config(page_title="Negotiation AI Assistant")
-st.subheader("Your Negotiation AI Assistant")
+#st.set_page_config(page_title="Negotiation AI Assistant")
+#st.subheader("Your Negotiation AI Assistant")
 
 #css_file = "main.css"
 #with open(css_file) as f:
