@@ -24,9 +24,9 @@ repo_id = os.environ.get('repo_id')
 st.set_page_config(page_title="Negotiation AI Assistant")
 st.subheader("Your Negotiation AI Assistant")
 
-css_file = "main.css"
-with open(css_file) as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+#css_file = "main.css"
+#with open(css_file) as f:
+#    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 file_path = os.path.join(os.getcwd(), "GTY.pdf")
 
